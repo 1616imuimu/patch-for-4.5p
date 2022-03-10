@@ -13,7 +13,7 @@ try {
             childList: true,
             subtree: true
         })
-    }, 500)
+    }, 1000)
 } catch (error) {
     console.log("予期せぬエラーが発生しました")
 }
