@@ -1,0 +1,12 @@
+{
+    "name": "twitter通知欄のアカウント名が水色なのを戻すやつ",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "twitter通知欄のアカウント名が水色なのを戻します",
+    "content_scripts": [
+      {
+        "matches": ["https://twitter.com/notifications"],
+        "js": ["patch.js"]
+      }
+    ]
+}
